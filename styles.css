@@ -109,7 +109,7 @@ nav a:hover {
   .grade-card {
     width: 60%;
   }
-.subject {
+  .subject {
     margin-right: 5px;
   }
   nav a {
@@ -118,5 +118,8 @@ nav a:hover {
   }
   .vtext {
     max-width: 100%;
+  }
+  .aboutme {
+    width: 70%;
   }
 }
