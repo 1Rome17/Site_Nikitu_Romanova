@@ -27,7 +27,6 @@ nav a {
   margin: 0 15px;
   transition: color 0.3s;
 }
-
 nav a:hover {
   color:   #C9A96E;                     /* акцент при наведении */
 }
@@ -88,6 +87,15 @@ nav a:hover {
 .divabout {
   display: flex;
 }
+.clock {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A6FA5;
+  margin: 40px 0;
+  font-family: 'Courier New', monospace;   /* моноширинный — цифры не «прыгают» */
+  letter-spacing: 4px;
+}
 @media (max-width: 700px) {
   .content {
     flex-direction: column;
@@ -99,13 +107,12 @@ nav a:hover {
   }
 
   .grade-card {
-    width: 100%;
+    width: 40%;
   }
 
   nav a {
     font-size: 20px;
     padding: 5px 10px;
-    margin: 0 5px;
   }
   .vtext {
     max-width: 100%;
