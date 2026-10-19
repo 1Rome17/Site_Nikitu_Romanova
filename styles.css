@@ -76,16 +76,30 @@ nav a:hover {
 }
 .aboutme {
   background-color: #2D3A4A;
+  font-size: 25px;
   padding: 15px 30px;
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(74, 111, 165, 0.15);
   text-align: left;
   border: 3px solid #4A6FA5;
-  width: 50%;
+  width: 60%;
   justify-content:space-around; 
 }
+.aboutme2 {
+ background-color: #2D3A4A;
+ margin-left: 20px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(74, 111, 165, 0.15);
+  text-align: left;
+  border: 3px solid #4A6FA5;
+  width: 60%;
+  justify-content:space-around; 
+  margin-top: 10px;
+}
 .divabout {
-  display: flex;
+  justify-content: space-around;
+  display:flex
 }
 .clock {
   text-align: center;
@@ -122,4 +136,5 @@ nav a:hover {
   .aboutme {
     width: 70%;
   }
+
 }
