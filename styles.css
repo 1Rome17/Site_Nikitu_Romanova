@@ -136,5 +136,7 @@ nav a:hover {
   .aboutme {
     width: 70%;
   }
-
+.divabout {
+  display: block;
+}
 }
